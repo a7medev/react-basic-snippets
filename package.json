@@ -1,7 +1,12 @@
 {
   "name": "react-basic-snippets",
+  "publisher": "a7medev",
   "displayName": "React Basic Snippets",
   "description": "Basic React, React Native, Next.js and TypeScript snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a7med-mahmoud/react-basic-snippets"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.63.0"
