@@ -1,6 +1,7 @@
 {
   "name": "react-basic-snippets",
   "publisher": "a7medev",
+  "icon": "assets/icon.png",
   "displayName": "React Basic Snippets",
   "description": "Basic React, React Native, Next.js and TypeScript snippets",
   "repository": {
