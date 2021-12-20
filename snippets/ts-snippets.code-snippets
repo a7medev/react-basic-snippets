@@ -1,0 +1,42 @@
+{
+  "React Component": {
+    "prefix": "rfc",
+    "body": [
+      "interface ${1:$TM_FILENAME_BASE}Props {",
+      "  $3",
+      "}",
+      "",
+      "const ${1:$TM_FILENAME_BASE}: React.FC<${1:$TM_FILENAME_BASE}Props> = () => {",
+      "  return ($2);",
+      "};",
+      "",
+      "export default ${1:$TM_FILENAME_BASE};",
+      ""
+    ],
+    "description": "React Component"
+	},
+	"React Component No Props": {
+    "prefix": "rfcn",
+    "body": [
+      "const ${1:$TM_FILENAME_BASE}: React.FC = () => {",
+      "  return ($2);",
+      "};",
+      "",
+      "export default ${1:$TM_FILENAME_BASE};",
+      ""
+    ],
+    "description": "React Component Without Props"
+	},
+	"Next.js API Route": {
+		"prefix": "napi",
+		"body": [
+			"import type { NextApiRequest, NextApiResponse } from 'next';",
+			"",
+			"export default function handler(req: NextApiRequest, res: NextApiResponse) {",
+			"  $1",
+			"}",
+			""
+		],
+		"description": "Next.js API Route"
+	},
+}

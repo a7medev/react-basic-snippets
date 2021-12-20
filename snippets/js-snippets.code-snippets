@@ -1,0 +1,25 @@
+{
+	"React Component": {
+		"prefix": "rfc",
+		"body": [
+			"const ${1:$TM_FILENAME_BASE} = () => {",
+			"  return ($2);",
+			"};",
+			"",
+			"export default ${1:$TM_FILENAME_BASE};",
+			""
+		],
+		"description": "React Component"
+	},
+	"Next.js API Route": {
+		"prefix": "napi",
+		"body": [
+			"export default function handler(req, res) {",
+			"  $1",
+			"}",
+			""
+		],
+		"description": "Next.js API Route"
+	},
+
+}

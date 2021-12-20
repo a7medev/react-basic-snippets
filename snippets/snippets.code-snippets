@@ -1,0 +1,30 @@
+{
+  "Import React": {
+    "prefix": "imr",
+    "body": ["import React from 'react';"],
+    "description": "Import React"
+  },
+	"React Native StyleSheet": {
+		"prefix": "rnss",
+		"body": [
+			"const styles = StyleSheet.create({",
+			"  $1",
+			"});"
+		],
+		"description": "React Native StyleSheet"
+	},
+	"Import From React Native": {
+		"prefix": "imrn",
+		"body": [
+			"import { $1 } from 'react-native';"
+		],
+		"description": "Import From React Native"
+	},
+	"Export Default": {
+		"prefix": "xdf",
+		"body": [
+			"export default $1;"
+		],
+		"description": "Export Default"
+	}
+}

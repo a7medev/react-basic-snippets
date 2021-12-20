@@ -9,11 +9,45 @@
   "categories": [
     "Snippets"
   ],
+  "keywords": [
+    "react",
+    "react-native",
+    "next.js",
+    "typescript"
+  ],
   "contributes": {
     "snippets": [
       {
         "language": "javascript",
         "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/js-snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/js-snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/ts-snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/ts-snippets.code-snippets"
       }
     ]
   }
